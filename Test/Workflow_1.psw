@@ -9,9 +9,9 @@
     <created_user>kalyanita</created_user>
     <created_date>2023&#x2f;08&#x2f;04 17&#x3a;15&#x3a;15.315</created_date>
     <modified_user>kalyanita</modified_user>
-    <modified_date>2023&#x2f;08&#x2f;04 17&#x3a;15&#x3a;26.927</modified_date>
-    <fileHash>94f03d911f4e5481251cf999dc736f3c</fileHash>
-    <stepEntryHash>10c00a3d99de55ce60d89eeea84eb6ca</stepEntryHash>
+    <modified_date>2023&#x2f;08&#x2f;04 17&#x3a;18&#x3a;55.720</modified_date>
+    <fileHash>d97a1310df2292f70abad12b3d125781</fileHash>
+    <stepEntryHash>271b8b647ab662f636d5b7b78a9be176</stepEntryHash>
 
     <directory>&#x2f;</directory>
     <parameters>
@@ -51,8 +51,20 @@
       <schema_name/>
     </partitioning>
     <fields>
+      <field>
+        <name>name</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif>kalyani</nullif>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
     </fields>
-    <limit>10</limit>
+    <limit>5</limit>
     <never_ending>N</never_ending>
     <interval_in_ms>5000</interval_in_ms>
     <row_time_field>now</row_time_field>
